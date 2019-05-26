@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E8740965229B15300026A310 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8740964229B15300026A310 /* main.swift */; };
+		E8740981229B15820026A310 /* mach_override.c in Sources */ = {isa = PBXBuildFile; fileRef = E874096F229B15820026A310 /* mach_override.c */; };
+		E8740982229B15820026A310 /* itab.c in Sources */ = {isa = PBXBuildFile; fileRef = E8740973229B15820026A310 /* itab.c */; };
+		E8740983229B15820026A310 /* udis86.c in Sources */ = {isa = PBXBuildFile; fileRef = E8740977229B15820026A310 /* udis86.c */; };
+		E8740984229B15820026A310 /* decode.c in Sources */ = {isa = PBXBuildFile; fileRef = E8740978229B15820026A310 /* decode.c */; };
+		E8740985229B15820026A310 /* syn-att.c in Sources */ = {isa = PBXBuildFile; fileRef = E8740979229B15820026A310 /* syn-att.c */; };
+		E8740986229B15820026A310 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = E874097B229B15820026A310 /* input.c */; };
+		E8740987229B15820026A310 /* syn-intel.c in Sources */ = {isa = PBXBuildFile; fileRef = E874097C229B15820026A310 /* syn-intel.c */; };
+		E8740988229B15820026A310 /* syn.c in Sources */ = {isa = PBXBuildFile; fileRef = E874097F229B15820026A310 /* syn.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,25 @@
 /* Begin PBXFileReference section */
 		E8740961229B15300026A310 /* SwiftMachOverride */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftMachOverride; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8740964229B15300026A310 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E874096B229B15580026A310 /* SwiftMachOverride-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftMachOverride-Bridging-Header.h"; sourceTree = "<group>"; };
+		E874096C229B15580026A310 /* override.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = override.c; sourceTree = "<group>"; };
+		E874096F229B15820026A310 /* mach_override.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_override.c; sourceTree = "<group>"; };
+		E8740970229B15820026A310 /* mach_override.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_override.h; sourceTree = "<group>"; };
+		E8740972229B15820026A310 /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		E8740973229B15820026A310 /* itab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = itab.c; sourceTree = "<group>"; };
+		E8740974229B15820026A310 /* udint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udint.h; sourceTree = "<group>"; };
+		E8740975229B15820026A310 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		E8740976229B15820026A310 /* syn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syn.h; sourceTree = "<group>"; };
+		E8740977229B15820026A310 /* udis86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = udis86.c; sourceTree = "<group>"; };
+		E8740978229B15820026A310 /* decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decode.c; sourceTree = "<group>"; };
+		E8740979229B15820026A310 /* syn-att.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "syn-att.c"; sourceTree = "<group>"; };
+		E874097A229B15820026A310 /* itab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itab.h; sourceTree = "<group>"; };
+		E874097B229B15820026A310 /* input.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = input.c; sourceTree = "<group>"; };
+		E874097C229B15820026A310 /* syn-intel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "syn-intel.c"; sourceTree = "<group>"; };
+		E874097D229B15820026A310 /* udis86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udis86.h; sourceTree = "<group>"; };
+		E874097E229B15820026A310 /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
+		E874097F229B15820026A310 /* syn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syn.c; sourceTree = "<group>"; };
+		E8740980229B15820026A310 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +84,44 @@
 		E8740963229B15300026A310 /* SwiftMachOverride */ = {
 			isa = PBXGroup;
 			children = (
+				E874096E229B15820026A310 /* mach */,
 				E8740964229B15300026A310 /* main.swift */,
+				E874096C229B15580026A310 /* override.c */,
+				E874096B229B15580026A310 /* SwiftMachOverride-Bridging-Header.h */,
 			);
 			path = SwiftMachOverride;
+			sourceTree = "<group>";
+		};
+		E874096E229B15820026A310 /* mach */ = {
+			isa = PBXGroup;
+			children = (
+				E874096F229B15820026A310 /* mach_override.c */,
+				E8740970229B15820026A310 /* mach_override.h */,
+				E8740971229B15820026A310 /* libudis86 */,
+			);
+			path = mach;
+			sourceTree = "<group>";
+		};
+		E8740971229B15820026A310 /* libudis86 */ = {
+			isa = PBXGroup;
+			children = (
+				E8740972229B15820026A310 /* input.h */,
+				E8740973229B15820026A310 /* itab.c */,
+				E8740974229B15820026A310 /* udint.h */,
+				E8740975229B15820026A310 /* types.h */,
+				E8740976229B15820026A310 /* syn.h */,
+				E8740977229B15820026A310 /* udis86.c */,
+				E8740978229B15820026A310 /* decode.c */,
+				E8740979229B15820026A310 /* syn-att.c */,
+				E874097A229B15820026A310 /* itab.h */,
+				E874097B229B15820026A310 /* input.c */,
+				E874097C229B15820026A310 /* syn-intel.c */,
+				E874097D229B15820026A310 /* udis86.h */,
+				E874097E229B15820026A310 /* extern.h */,
+				E874097F229B15820026A310 /* syn.c */,
+				E8740980229B15820026A310 /* decode.h */,
+			);
+			path = libudis86;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +156,7 @@
 				TargetAttributes = {
 					E8740960229B15300026A310 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -119,7 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8740986229B15820026A310 /* input.c in Sources */,
+				E8740987229B15820026A310 /* syn-intel.c in Sources */,
+				E8740988229B15820026A310 /* syn.c in Sources */,
+				E8740981229B15820026A310 /* mach_override.c in Sources */,
+				E8740984229B15820026A310 /* decode.c in Sources */,
+				E8740985229B15820026A310 /* syn-att.c in Sources */,
 				E8740965229B15300026A310 /* main.swift in Sources */,
+				E8740983229B15820026A310 /* udis86.c in Sources */,
+				E8740982229B15820026A310 /* itab.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,8 +315,16 @@
 		E8740969229B15300026A310 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMachOverride/SwiftMachOverride-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -253,8 +332,15 @@
 		E874096A229B15300026A310 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMachOverride/SwiftMachOverride-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

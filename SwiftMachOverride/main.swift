@@ -8,5 +8,29 @@
 
 import Foundation
 
-print("Hello, World!")
+func original() {
+    print("original function");
+}
 
+func exchanged() {
+    print("exchanged function");
+}
+
+class TestClass {
+    func original() {
+        print("original class function");
+    }
+    
+    func exchanged() {
+        print("exchanged class function");
+    }
+}
+
+
+// -- CODE
+override()
+override_instance_method()
+
+original()
+let a = TestClass()
+a.original()
