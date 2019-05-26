@@ -52,6 +52,7 @@
 		E874097E229B15820026A310 /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
 		E874097F229B15820026A310 /* syn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syn.c; sourceTree = "<group>"; };
 		E8740980229B15820026A310 /* decode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode.h; sourceTree = "<group>"; };
+		E8740989229B25450026A310 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		E8740958229B15300026A310 = {
 			isa = PBXGroup;
 			children = (
+				E8740989229B25450026A310 /* readme.md */,
 				E8740963229B15300026A310 /* SwiftMachOverride */,
 				E8740962229B15300026A310 /* Products */,
 			);
